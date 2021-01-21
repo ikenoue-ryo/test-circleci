@@ -12,6 +12,10 @@ class MathTest(unittest.TestCase):
         expected = 8
         self.assertEqual(actual, expected)
 
+    def test_hello(self):
+        hello = 'hello'
+        self.assertEqual(hello, 'hello')
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -3,3 +3,7 @@ def addition(value1, value2):
         return 'Invalid input'
     else:
         return value1 + value2
+
+
+def hello():
+    print('hello')
